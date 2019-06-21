@@ -1,0 +1,15 @@
+<div class="informacion">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-12">
+        <ul>
+          <li *ngFor="let inf of component">
+            <span class="fas fa-{{inf.icono}}"></span>
+            <h3>{{inf.titulo}}</h3>
+            <p>{{inf.texto}}</p>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>

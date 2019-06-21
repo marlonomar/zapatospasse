@@ -8,6 +8,8 @@ import { NavegadorComponent } from './navegador/navegador.component';
 import { SliderComponent } from './slider/slider.component';
 import { GalleryComponent } from './gallery/gallery.component';
 import { PatrocinadoresComponent } from './patrocinadores/patrocinadores.component';
+import { MoreInfosComponent } from './more-infos/more-infos.component';
+import { PieComponent } from './pie/pie.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +18,9 @@ import { PatrocinadoresComponent } from './patrocinadores/patrocinadores.compone
     NavegadorComponent,
     SliderComponent,
     GalleryComponent,
-    PatrocinadoresComponent
+    PatrocinadoresComponent,
+    MoreInfosComponent,
+    PieComponent
   ],
   imports: [
     BrowserModule,

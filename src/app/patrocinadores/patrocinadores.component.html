@@ -1,3 +1,13 @@
-<p>
-  patrocinadores works!
-</p>
+<div class="patrocinadores">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-12">
+        <ul>
+          <li *ngFor="let marcas of patrocinadores">
+            <img src="{{marcas.marca}}" alt="">
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
