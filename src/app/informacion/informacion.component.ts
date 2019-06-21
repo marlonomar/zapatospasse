@@ -35,7 +35,6 @@ export class InformacionComponent implements OnInit {
    }
 
   ngOnInit() {
-    console.log(this.redeSociales)
   }
 
   

@@ -1,0 +1,29 @@
+ <div class="container-fluid">
+   <div class="row">
+     <div class="col-md-3">
+        <div class="logo">
+          <img src="{{logo}}" alt="">
+        </div>
+     </div>
+     <div class="col-md-7">
+       <div class="navegador">
+          <nav>
+              <ul>
+                <a href="{{item.link}}" *ngFor="let item of navegador">
+                  <li>
+                    {{item.nombre}}
+                  </li>
+                 </a>
+              </ul>
+            </nav>
+       </div>
+     </div>
+     <div class="col-md-2">
+        <div class="iconos">
+            <a href="{{icon.link}}" *ngFor="let icon of incono">
+              <span  class="fas fa-{{icon.icono}}"></span>
+            </a>
+        </div>
+     </div>
+   </div>
+ </div>

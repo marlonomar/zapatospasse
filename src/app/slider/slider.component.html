@@ -1,0 +1,13 @@
+<div class="gallerySliders">
+  <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="sliders" *ngFor="let foto of sliders">
+            <img src="{{foto.photo}}" alt="">
+            <h2>{{foto.mensagem}}</h2>
+            <button class="btn">{{foto.nameButton}}</button>
+          </div>
+        </div>
+      </div>
+    </div>
+</div>

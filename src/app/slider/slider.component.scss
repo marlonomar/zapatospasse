@@ -1,0 +1,36 @@
+.gallerySliders{
+    .col-md-12{
+        padding: 0px;
+        .sliders{
+            width: 100%;
+            img{
+                width: 100%;
+            }
+            h2{
+                font-weight: bold;
+                color: rgb(255, 255, 255);
+                font-size: 97px;
+                position:absolute;
+                bottom: 253px;
+                left: 449px;
+            }
+            button{
+                background: transparent;
+                border: 3px solid white;
+                width: 200px;
+                height:66px;
+                color: white;
+                position: absolute;
+                bottom: 177px;
+                right: 318px;
+                font-size:20px;
+                letter-spacing: 2px;
+            }
+            button:hover{
+                background: rgba(255,255,255,.8);
+                width: 220px;
+                color: black;
+            }
+        }
+    }
+}
