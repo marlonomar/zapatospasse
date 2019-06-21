@@ -1,0 +1,52 @@
+.gallery{
+    .col-md-6{
+        padding-right:0px;
+        padding-left:0px; 
+    }
+    
+    .none{
+        display: none;
+    }
+
+    .vacio{
+        h3{
+            text-align: center;
+            font-weight: bold;
+            font-size: 50px;
+            position: relative;
+            bottom: -170px;
+            left:0px;
+        }
+    }
+
+    .foto{
+        img{
+
+        }
+        h3{
+            position:absolute;
+            font-size: 60px;
+            font-weight: bold;
+            color: white;
+            bottom: 159px;
+            left: 170px;
+        }
+        button{
+            background: transparent;
+            border: 3px solid white;
+            width: 200px;
+            height:66px;
+            color: white;
+            position: absolute;
+            bottom: 79px;
+            right: 268px;
+            font-size:20px;
+            letter-spacing: 2px;
+        }
+        button:hover{
+            background: rgba(255,255,255,.8);
+            width: 220px;
+            color: black;
+        }
+    }
+}

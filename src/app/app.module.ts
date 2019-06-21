@@ -6,13 +6,17 @@ import { AppComponent } from './app.component';
 import { InformacionComponent } from './informacion/informacion.component';
 import { NavegadorComponent } from './navegador/navegador.component';
 import { SliderComponent } from './slider/slider.component';
+import { GalleryComponent } from './gallery/gallery.component';
+import { PatrocinadoresComponent } from './patrocinadores/patrocinadores.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     InformacionComponent,
     NavegadorComponent,
-    SliderComponent
+    SliderComponent,
+    GalleryComponent,
+    PatrocinadoresComponent
   ],
   imports: [
     BrowserModule,
